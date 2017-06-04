@@ -4,14 +4,15 @@
 
     <groupId>com.meszike123</groupId>
     <artifactId>my-webapp</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
 
     <scm>
         <connection>scm:git:https://github.com/meszike123/maven-project</connection>
         <developerConnection>scm:git:https://github.com/meszike123/maven-project</developerConnection>
         <url>https://github.com/meszike123/maven-project/</url>
-    </scm>
+      <tag>v1.0</tag>
+  </scm>
 
     <modules>
         <module>library</module>
