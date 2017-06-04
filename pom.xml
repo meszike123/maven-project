@@ -10,7 +10,7 @@
     <scm>
         <connection>scm:git:https://github.com/meszike123/maven-project</connection>
         <developerConnection>scm:git:https://github.com/meszike123/maven-project</developerConnection>
-        <url>https://github.com/meszike123/maven-project/tags/v1.0</url>
+        <url>https://github.com/meszike123/maven-project/</url>
     </scm>
 
     <modules>
@@ -41,6 +41,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>custom-repo</id>
+            <url>file://var/repo</url>
+        </repository>
+    </distributionManagement>
 
     <dependencyManagement>
         <dependencies>
