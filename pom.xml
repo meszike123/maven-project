@@ -45,7 +45,7 @@
     <distributionManagement>
         <repository>
             <id>custom-repo</id>
-            <url>file://var/repo</url>
+            <url>file:///var/repo</url>
         </repository>
     </distributionManagement>
 
